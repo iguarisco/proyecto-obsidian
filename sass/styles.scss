@@ -74,17 +74,27 @@ nav{
 
     25%{
         
-        transform: translateX(-50%);
+        transform: translateX(-60%);
     }
 
     50%{
         
-        transform: translateX(-100%);
+        transform: translateX(-90%);
     }
 
     75%{
         
         transform: translateX(-50%);
+    }
+
+    75%{
+        
+        transform: translateX(-60%);
+    }
+
+    80%{
+        
+        transform: translateX(-75%);
     }
 
     100%{
