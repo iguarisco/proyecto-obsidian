@@ -1,7 +1,3 @@
-body {
-  background-color: aqua;
-}
-
 nav {
   display: flex;
   align-items: center;
@@ -15,7 +11,7 @@ nav img {
 nav .menu ul {
   list-style-type: none;
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   padding: 2rem;
 }
 nav .menu ul a {
@@ -42,6 +38,14 @@ nav .fondo {
   background-color: #a4b07e;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+}
+main .fotos {
+  display: flex;
+  flex-direction: row;
+}
 main .seccionfoto {
   background-color: #7dac66;
   width: 200px;
@@ -52,8 +56,6 @@ main .seccionfoto {
 main .lateral {
   width: 20%;
   background-color: #f19960;
-  height: 960px;
-  margin: 20px;
 }
 
 @keyframes animationNAV {

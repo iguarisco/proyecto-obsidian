@@ -1,7 +1,5 @@
+@import 'colores';
 
-body{
-    background-color: aqua;
-}
 
 nav{
 
@@ -56,6 +54,14 @@ nav{
 }
 
 main{
+    display: flex;
+    justify-content: space-between;
+
+    .fotos{
+        display: flex;
+        flex-direction: row;
+    }
+
     .seccionfoto{
         background-color:#7dac66;
         width: 200px;
