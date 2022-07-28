@@ -55,6 +55,22 @@ nav{
  
 }
 
+main{
+    .seccionfoto{
+        background-color:#7dac66;
+        width: 200px;
+        height: 300px;
+        margin: 20px;
+        margin-bottom: 30px;
+    }
+
+    .lateral{
+        width: 20%;
+        background-color: #f19960;
+    }
+}
+
+
 @keyframes animationNAV {
 
     0%{

@@ -42,6 +42,20 @@ nav .fondo {
   background-color: #a4b07e;
 }
 
+main .seccionfoto {
+  background-color: #7dac66;
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+main .lateral {
+  width: 20%;
+  background-color: #f19960;
+  height: 960px;
+  margin: 20px;
+}
+
 @keyframes animationNAV {
   0% {
     transform: translateY(-100%);
