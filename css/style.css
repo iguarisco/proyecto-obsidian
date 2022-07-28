@@ -40,5 +40,29 @@ nav .fondo {
     transform: translateY(0%);
   }
 }
+.paraVosNacho {
+  position: absolute;
+  bottom: 0px;
+  left: -50px;
+  animation: ParaVos 4s;
+}
+
+@keyframes ParaVos {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  75% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
