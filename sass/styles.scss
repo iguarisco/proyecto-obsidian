@@ -19,7 +19,7 @@ nav{
         ul{
             list-style-type: none;
             display: flex;
-            gap: 1rem;  
+            gap: 3rem;  
             padding: 2rem;
 
             a{
@@ -31,8 +31,8 @@ nav{
                 font-weight: bold;
 
                 &:hover{
-                    transform: scale(1.2);
-                    transition: 1.5s;
+                    transform: scale(1.1);
+                    transition: 1s;
                     background-color: #d4cbbc;
                     border-radius: 20px;
                     padding: 10px;
@@ -60,6 +60,7 @@ main{
     .fotos{
         display: flex;
         flex-direction: row;
+
     }
 
     .seccionfoto{
@@ -68,11 +69,26 @@ main{
         height: 300px;
         margin: 20px;
         margin-bottom: 30px;
+
+        &:hover{
+            transform: scale(1.1);
+            transition: 1.5s;
+        }
     }
 
-    .lateral{
-        width: 20%;
-        background-color: #f19960;
+    // .lateral{
+    //     margin-top: 20px;
+    //     width: 20%;
+    //     background-color: #f19960;
+    // }
+}
+
+footer{
+    padding: 10px;
+    section{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
     }
 }
 
